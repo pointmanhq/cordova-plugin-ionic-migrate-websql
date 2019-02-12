@@ -4,14 +4,15 @@
   "cordova": {
     "id": "cordova-plugin-ionic-migrate-storage",
     "platforms": [
-      "ios"
+      "ios",
+      "android"
     ]
   },
-  "description": "Cordova plugin that migrates WebSQL, localStorage and IDB data from UIWebview to WkWebView",
+  "description": "Cordova plugin that migrates WebSQL, localStorage and IndexedDB (iOS only) data when you start using the `cordova-plugin-ionic-webview` plugin. This works for both Android and iOS!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["ecosystem:cordova", "cordova", "cordova-ios", "uiwebview", "wkwebview", "websql", "localstorage", "indexeddb"],
+  "keywords": ["ecosystem:cordova", "cordova", "cordova-plugin", "cordova-ios", "cordova-android", "ios", "android", "uiwebview", "wkwebview", "websql", "localstorage", "indexeddb"],
   "author": "Pointman Dev <dev@pointman.com>"
 }
